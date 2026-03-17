@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2f7, #e0e7ff);
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.score-card {
+    text-align: center;
+}
+
+.good {
+    color: green;
+    font-weight: bold;
+}
+
+.avg {
+    color: orange;
+    font-weight: bold;
+}
+
+.bad {
+    color: red;
+    font-weight: bold;
+}
+
+.tags span {
+    display: inline-block;
+    background: #e0e7ff;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+}
